@@ -1,8 +1,8 @@
+# KCD2-ENPU-mod
+Enhanced Pugilism mod for Kingdom Come: Deliverance 2
+
 Author: 
 Alexa Pantuck
-
-Game: 
-Kingdom Come: Deliverance 2
 
 Purpose:
 - Adjusts plate gauntlets to add a 50% buff to unarmed damage
