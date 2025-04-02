@@ -1,5 +1,9 @@
-Author: Alexa Pantuck
-Game: Kingdom Come: Deliverance 2
+Author: 
+Alexa Pantuck
+
+Game: 
+Kingdom Come: Deliverance 2
+
 Purpose:
 - Adjusts plate gauntlets to add a 50% buff to unarmed damage
 - Allows player and NPC to wear handwraps in brawls
@@ -10,4 +14,4 @@ Compatibility:
 Currently, shop inventories can't be selectively patched, so any mod that edits that same vendors will conflict.
 
 Installation:
-Drop enpu folder into your KCD2/mods folder
+Drop enpu folder into your KCD2/mods folder. Only the *.pak file in the data folder will be read by the game.
