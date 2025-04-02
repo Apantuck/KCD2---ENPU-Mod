@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Table xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance">
+    <!--  Item name  -->
+    <Row>
+        <Cell>ui_nm_weightedglove</Cell>
+        <Cell>Handwrap (Weighted)</Cell>
+        <Cell>Handwrap (Weighted)</Cell>
+    </Row>
+    <!--  Item info  -->
+    <Row>
+        <Cell>ui_in_weightedglove</Cell>
+        <Cell>A handwrap concealing a chunk of iron to increase the impact of punches. A staple among all kinds of scoundrels and ragamuffins who have few scruples with cheating in a brawl or lacking the funds for plate gauntlets.</Cell>
+        <Cell>A handwrap concealing a chunk of iron to increase the impact of punches. A staple among all kinds of scoundrels and ragamuffins who have few scruples with cheating in a brawl or lacking the funds for plate gauntlets.</Cell>
+    </Row>
+</Table>

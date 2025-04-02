@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="barbora" xsi:noNamespaceSchemaLocation="InventoryPreset.xsd">
+    <InventoryPresets version="2">
+        <!-- handwrap components -->
+        <InventoryPreset Name="inventory_shop_weightedHandwraps_q2" Mode="All">
+            <PresetItem Name="WeightedHandWrap01_m01" Amount="1" Quality="2" Condition="1"/>
+            <PresetItem Name="WeightedHandWrap01_m02" Amount="1" Quality="2" Condition="1"/>
+            <PresetItem Name="WeightedHandWrap01_m03" Amount="1" Quality="2" Condition="1"/>
+            <PresetItem Name="WeightedHandWrap01_m04" Amount="1" Quality="2" Condition="1"/>
+        </InventoryPreset>
+        <InventoryPreset Name="inventory_shop_weightedHandwraps_q1" Mode="All">
+            <PresetItem Name="WeightedHandWrap01_m01" Amount="1" Quality="1" Condition="1"/>
+            <PresetItem Name="WeightedHandWrap01_m02" Amount="1" Quality="1" Condition="1"/>
+            <PresetItem Name="WeightedHandWrap01_m03" Amount="1" Quality="1" Condition="1"/>
+            <PresetItem Name="WeightedHandWrap01_m04" Amount="1" Quality="1" Condition="1"/>
+        </InventoryPreset>
+        <InventoryPreset Name="inventory_singleRandomWeightedHandwrap" Mode="OneChild">
+            <PresetItem Name="WeightedHandWrap01_m01" Amount="1"/>
+            <PresetItem Name="WeightedHandWrap01_m02" Amount="1"/>
+            <PresetItem Name="WeightedHandWrap01_m03" Amount="1"/>
+            <PresetItem Name="WeightedHandWrap01_m04" Amount="1"/>
+        </InventoryPreset>
+        
+        <!-- shops -->
+        <InventoryPreset Name="inventory_shop_traffickerKrejzl" Mode="All" Health="1">
+            <!-- old items -->
+                <PresetItem Name="money" Amount="3390"/>
+                <!--  ammo  -->
+                <PresetItem Name="arrow_cutting" Amount="32"/>
+                <PresetItem Name="bolt_cutting" Amount="29"/>
+                <!--  potion  -->
+                <PresetItem Name="potion_nighthawk_medium" Amount="2"/>
+                <PresetItem Name="potion_padfoot_medium" Amount="3"/>
+                <PresetItem Name="sleepingPoison_medium" Amount="2"/>
+                <PresetItem Name="paralysisPoison" Amount="1"/>
+                <!--  skillbook  -->
+                <PresetItem Name="skillbook_thievery_I_kcd2" Amount="1"/>
+                <!--  misc  -->
+                <PresetItem Name="player_lockpick" Amount="35"/>
+                <PresetItem Name="daggerCommon" Amount="1"/>
+                <!--  clothes  -->
+                <PresetItem Name="CoifSmall02_m05_E1" Amount="1" Quality="3" Condition="1"/>
+                <PresetItem Name="Cap03_m05_E" Amount="1" Quality="2" Condition="1"/>
+                <PresetItem Name="Cap19_m03_C" Amount="1" Quality="2" Condition="1"/>
+                <PresetItem Name="Coat02_m07_D" Amount="1" Quality="2" Condition="1"/>
+                <PresetItem Name="Hood07_m04_C" Amount="1" Quality="2" Condition="1"/>
+                <PresetItem Name="HoseSeparate04_m03_E" Amount="1" Quality="3" Condition="1"/>
+                <PresetItem Name="Gloves01_m01_C1" Amount="1" Quality="2" Condition="1"/>
+            <!-- new items -->
+            <InventoryPresetRef Name="inventory_shop_weightedHandwraps_q1"/>
+        </InventoryPreset>
+        <InventoryPreset Name="inventory_shop_traffickerDedek" Mode="All" Health="1">
+            <!-- old items -->                
+                <PresetItem Name="money" Amount="2420"/>
+                <!--  ammo  -->
+                <PresetItem Name="arrow_cutting" Amount="42"/>
+                <PresetItem Name="bolt_cutting" Amount="31"/>
+                <!--  potion  -->
+                <PresetItem Name="potion_nighthawk" Amount="3"/>
+                <PresetItem Name="potion_padfoot_medium" Amount="2"/>
+                <PresetItem Name="potion_embrocation_medium" Amount="2"/>
+                <PresetItem Name="banePoison" Amount="2"/>
+                <PresetItem Name="paralysisPoison" Amount="3"/>
+                <!--  skillbook  -->
+                <PresetItem Name="stealth_skillbook_lvl1_kcd2" Amount="1"/>
+                <!--  misc  -->
+                <PresetItem Name="player_lockpick" Amount="41"/>
+                <PresetItem Name="daggerCommon" Amount="1"/>
+                <!--  clothes  -->
+                <PresetItem Name="BootsKnee03_m08_C" Amount="1"/>
+                <PresetItem Name="Cap08_m10_B" Amount="1"/>
+                <PresetItem Name="Coat04_m12_C" Amount="1"/>
+                <PresetItem Name="Cap12_m08_D" Amount="1"/>
+                <PresetItem Name="GambesonShort02_m12_E1" Amount="1"/>
+                <PresetItem Name="Hood01_m11_D" Amount="1"/>
+                <PresetItem Name="Hood04_m01_E" Amount="1"/>
+                <PresetItem Name="HoseSeparate01_m06_D" Amount="1"/>
+                <PresetItem Name="LegsPadded02_m08_E1" Amount="1"/>
+                <PresetItem Name="TunicLong04_m04_D" Amount="1"/>
+                <PresetItem Name="BootsKnee03_m02_C" Amount="1"/>
+            <!-- new items -->
+            <InventoryPresetRef Name="inventory_shop_weightedHandwraps_q2"/>
+        </InventoryPreset>
+        <InventoryPreset Name="inventory_shop_innkeeperCertovka" Mode="All" Health="1">
+            <!-- old items -->
+                <PresetItem Name="money" Amount="2530"/>
+                <InventoryPresetRef Name="inventory_commonInnkeeperSaviour"/>
+                <InventoryPresetRef Name="inventory_commonInnkeeperTorch"/>
+                <InventoryPresetRef Name="inventory_commonInnkeeperFood"/>
+                <InventoryPresetRef Name="inventory_commonInnkeeperDrink"/>
+                <InventoryPresetRef Name="inventory_commonBathhouseBandages"/>
+                <!--  potions  -->
+                <PresetItem Name="potion_nighthawk_medium" Amount="2"/>
+                <PresetItem Name="potion_padfoot" Amount="3"/>
+                <!--  custom  -->
+                <PresetItem Name="HeadStartDiceBadgePlumb" Amount="1"/>
+                <PresetItem Name="HeadStartDiceBadgeSilver" Amount="1"/>
+                <PresetItem Name="HeadStartDiceBadgeGold" Amount="1"/>
+                <PresetItem Name="player_lockpick" Amount="12"/>
+                <PresetItem Name="player_shovel" Amount="1"/>
+                <!--  clothes  -->
+                <PresetItem Name="LegsPadded03_m02_B2" Amount="1" Quality="3" Condition="1"/>
+                <PresetItem Name="GambesonShort04_m05_C3" Amount="1" Quality="3" Condition="1"/>
+                <!--  skillbook  -->
+                <PresetItem Name="skillbook_thievery_II_kcd2" Amount="1"/>
+            <!-- new items -->
+            <InventoryPresetRef Name="inventory_shop_weightedHandwraps_q2"/>
+        </InventoryPreset>
+        <InventoryPreset Name="inventory_shop_innkeeperKHChmelnaDira" Mode="All" Health="1">
+            <!-- old items -->
+                <PresetItem Name="money" Amount="2130"/>
+                <InventoryPresetRef Name="inventory_commonInnkeeperFood"/>
+                <InventoryPresetRef Name="inventory_commonInnkeeperDrink"/>
+                <InventoryPresetRef Name="inventory_commonInnkeeperSaviour"/>
+                <InventoryPresetRef Name="inventory_commonInnkeeperPotion"/>
+                <InventoryPresetRef Name="inventory_commonInnkeeperTorch"/>
+                <InventoryPresetRef Name="inventory_commonBathhouseBandages"/>
+                <!--  misc  -->
+                <PresetItem Name="player_lockpick" Amount="8"/>
+                <!--  die  -->
+                <PresetItem Name="dieUnbalanced" Amount="1"/>
+                <PresetItem Name="dieEven" Amount="1"/>
+                <PresetItem Name="MultiplierDiceBadgePlumb" Amount="1"/>
+                <PresetItem Name="MultiplierDiceBadgeSilver" Amount="1"/>
+                <PresetItem Name="MultiplierDiceBadgeGold" Amount="1"/>
+                <!--  clothing  -->
+                <PresetItem Name="Cap01_m04_C" Amount="1" Quality="2" Condition="1"/>
+                <PresetItem Name="Coat11_m09_C" Amount="1" Quality="2" Condition="1"/>
+                <PresetItem Name="Hood07_m03_C" Amount="1" Quality="2" Condition="1"/>
+                <!--  books  -->
+                <PresetItem Name="stealth_skillbook_lvl2_kcd2" Amount="1"/>
+                <!--  potions  -->
+                <PresetItem Name="potion_nighthawk_medium" Amount="2"/>
+                <PresetItem Name="potion_padfoot" Amount="3"/>
+            <!-- new items -->
+            <InventoryPresetRef Name="inventory_shop_weightedHandwraps_q2"/>
+        </InventoryPreset>
+        <InventoryPreset Name="inventory_shop_innkeeperKHVlasskaSvatych" Mode="All" Health="1">
+            <!-- old items -->
+                <PresetItem Name="money" Amount="2290"/>
+                <InventoryPresetRef Name="inventory_commonInnkeeperFood"/>
+                <InventoryPresetRef Name="inventory_commonInnkeeperDrink"/>
+                <InventoryPresetRef Name="inventory_commonInnkeeperSoap"/>
+                <InventoryPresetRef Name="inventory_commonInnkeeperSaviour"/>
+                <InventoryPresetRef Name="inventory_commonInnkeeperPotion"/>
+                <InventoryPresetRef Name="inventory_commonInnkeeperTorch"/>
+                <InventoryPresetRef Name="inventory_commonBathhouseBandages"/>
+                <!--  custom  -->
+                <PresetItem Name="skillbook_unarmed_lvl2_kcd2" Amount="1"/>
+                <PresetItem Name="HandWrap01_m03_E" Amount="1" Quality="2" Condition="1"/>
+                <PresetItem Name="HandWrap01_m04_E" Amount="1" Quality="2" Condition="1"/>
+                <PresetItem Name="die_Gamblerova_good" Amount="1"/>
+                <PresetItem Name="HeadStartDiceBadgeSilver" Amount="1"/>
+                <PresetItem Name="MultiplierDiceBadgeGold" Amount="1"/>
+            <!-- new items -->
+            <InventoryPresetRef Name="inventory_shop_weightedHandwraps_q2"/>
+        </InventoryPreset>
+
+        <!-- chests, stashes, modules -->
+        <InventoryPreset Name="inventory_banditLoot_spareWeapons" Mode="AmountCount" ModeValue="2" ModeValueVariation="1" Health="0.09" HealthVariation="0.05">
+            <!-- old items -->
+                <PresetItem Name="axeWork01" Amount="1"/>
+                <PresetItem Name="axeWork02" Amount="1"/>
+                <PresetItem Name="daggerCommon" Amount="1"/>
+                <PresetItem Name="huntingSwordBasic" Amount="1"/>
+                <PresetItem Name="huntingSwordGuard" Amount="1"/>
+                <PresetItem Name="longswordOld" Amount="1"/>
+                <PresetItem Name="mace01" Amount="1"/>
+                <PresetItem Name="maceClub" Amount="1"/>
+                <PresetItem Name="maceClubSpiked" Amount="1"/>
+                <PresetItem Name="polearmPitchfork" Amount="1"/>
+                <PresetItem Name="sabreCommon" Amount="1"/>
+                <PresetItem Name="shortswordBroad" Amount="1"/>
+                <PresetItem Name="shortswordCommon" Amount="1"/>
+                <PresetItem Name="warhammer01" Amount="1"/>
+            <!-- new items -->
+            <InventoryPresetRef Name="inventory_singleRandomWeightedHandwrap"/>
+        </InventoryPreset>
+        <InventoryPreset Name="inventory_defaultJunkCombat" Mode="AmountCount" ModeValue="1.6" ModeValueVariation="0.7" Health="0.41" HealthVariation="0.05">
+            <!-- old items -->
+                <InventoryPresetRef Name="inventory_bedsideWeaponMidVillager" Weight="1"/>
+                <InventoryPresetRef Name="inventory_bedsideWeaponLowBurgher" Weight="1"/>
+                <InventoryPresetRef Name="inventory_singleRandomOpenBascinet" Weight="0.2"/>
+                <InventoryPresetRef Name="inventory_singleRandomLowGauntlets" Weight="0.2"/>
+                <InventoryPresetRef Name="inventory_singleRandomWorkGloves" Weight="1"/>
+                <InventoryPresetRef Name="inventory_banditLoot_spareWeapons_bow" Weight="0.1"/>
+                <InventoryPresetRef Name="inventory_banditLoot_spareWeapons_crossbowAmmo" Weight="0.1"/>
+            <!-- new items -->
+            <InventoryPresetRef Name="inventory_singleRandomWeightedHandwrap"/>
+        </InventoryPreset>
+    </InventoryPresets>
+</database>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="barbora" xsi:noNamespaceSchemaLocation="../database.xsd">
+    <buffs version="1">
+        <buff buff_class_id="12" buff_exclusivity_id="1" buff_id="629d3cc6-3577-4c6a-a9ab-538c844ecda1" buff_lifetime_id="1" buff_name="item_gauntlets" buff_params="uat*1.5" duration="-1" implementation="Cpp:EquippableItemWeighted" is_persistent="true" buff_ui_type_id="1" buff_ui_visibility_id="0" icon_id="0"/>
+    </buffs>
+</database>

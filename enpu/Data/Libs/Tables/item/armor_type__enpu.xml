@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="barbora" xsi:noNamespaceSchemaLocation="../database.xsd">
+    <armor_types version="1">
+        <armor_type EquipBuffId="629d3cc6-3577-4c6a-a9ab-538c844ecda1" Id="40" Name="Gauntlets" Surface="mat_plate" SurfacePriorityMultiplier="3"/>
+        <armor_type CanHealthChange="false" EquipBuffId="629d3cc6-3577-4c6a-a9ab-538c844ecda1" Id="82" Name="WeightedGlove" Surface="mat_fabric" SurfacePriorityMultiplier="1.2"/>
+    </armor_types>
+</database>

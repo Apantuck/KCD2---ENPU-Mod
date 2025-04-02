@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="barbora" xsi:noNamespaceSchemaLocation="../database.xsd">
+    <CharacterComponents version="6">
+        <Component Name="Male" Race="Human" Gender="Male">
+            <DerivedComponents>
+                <Component Name="Clothing" FilePath="humans/male/clothing/">
+                    <DerivedComponents>
+                        <Component Name="Hands" RepresentativeUberlodClothing="Gloves">
+                           <DerivedComponents>
+                                <Clothing Name="WeightedHandwraps" ArmorType="WeightedGlove" ArmorArchetypeId="45">
+                                    <Elements>
+                                        <SkinElement EquipmentPart="hands" Model="hands/gloves/boundary_hands_gloves_01/boundary_hands_gloves_01.skin" Material="hands/gloves/boundary_hands_gloves_01/boundary_hands_gloves_01.mtl" KeepBodyLayer="true"/>
+                                    </Elements>
+                                    <DerivedComponents>
+                                        <Clothing Name="WeightedHandWrap01_m01" DropModel="characters/humans/male/clothing/hands/handwraps/handwrap01/handwrap01_dropmodel.cgf">
+                                            <Elements>
+                                                <SkinElement EquipmentPart="hands" Model="hands/handwraps/handwrap01/handwrap01.skin" Material="hands/handwraps/handwrap01/handwrap01_m01.mtl"/>
+                                            </Elements>
+                                            <Features>
+                                                <Feature Name="GloveBase" Material="Cotton_White_Whiter"/>
+                                            </Features>
+                                            <DerivedComponents>
+                                                <Clothing Name="WeightedHandWrap01_m02">
+                                                    <Features>
+                                                        <Feature Name="GloveBase" Material="Linen_grey_light"/>
+                                                    </Features>
+                                                </Clothing>
+                                                <Clothing Name="WeightedHandWrap01_m03">
+                                                    <Features>
+                                                        <Feature Name="GloveBase" Material="Linen_white"/>
+                                                    </Features>
+                                                </Clothing>
+                                                <Clothing Name="WeightedHandWrap01_m04">
+                                                    <Features>
+                                                        <Feature Name="GloveBase" Material="12_Linen_Sage"/>
+                                                    </Features>
+                                                </Clothing>
+                                            </DerivedComponents>
+                                        </Clothing>
+                                    </DerivedComponents>
+                                </Clothing>
+                            </DerivedComponents>
+                        </Component>
+                    </DerivedComponents>
+                </Component>
+            </DerivedComponents>
+        </Component>
+    </CharacterComponents>
+</database>
